@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MindBox.Core\MindBox.Core.csproj" />
+    <ProjectReference Include="..\MindBox.Mobile.DataAccess\MindBox.Mobile.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
