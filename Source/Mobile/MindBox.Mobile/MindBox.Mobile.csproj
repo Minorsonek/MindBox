@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MindBox.Core\MindBox.Core.csproj" />
     <ProjectReference Include="..\MindBox.Mobile.DataAccess\MindBox.Mobile.DataAccess.csproj" />
   </ItemGroup>
